@@ -3,5 +3,4 @@ pandas==1.5.3
 joblib==1.3.2
 scikit-learn==1.2.2
 numpy==1.24.3
-catboost==1.2  # Include if using CatBoost
-lightgbm==4.0.0  # Include if using LightGBM
+catboost==1.2
