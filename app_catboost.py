@@ -3,9 +3,9 @@ import pandas as pd
 import joblib  # For loading model
 
 # Load the saved CatBoost model
-# model = joblib.load("catboost_model.pkl")
+model = joblib.load("catboost_model.pkl")
 # model = joblib.load("LGBM_model.pkl")
-model = joblib.load("LR_model.pkl")
+# model = joblib.load("LR_model.pkl")
 
 # Load dataset to get feature columns
 df = pd.read_csv("preprocessing_241126.csv")
